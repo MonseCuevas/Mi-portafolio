@@ -1,5 +1,5 @@
 .navar{
-    background-color:#EEEEEE ;
+    background-color:#EFEBE9  ;
 }
 a{
     color: black;
@@ -10,7 +10,7 @@ a:hover{
     color: white;
 }
 .imagen{
- background-image: url(code.png);
+ background-image: url(computadora.jpeg);
  background-repeat: no-repeat;
  background-size: cover;
  width: 100%;
@@ -19,8 +19,36 @@ a:hover{
 }
 
 .titulo{
-    box-shadow: 5px 5px 25px #BFC9CA  inset;  
-    background-color: white;
-
-
+    font-family: 'Ranga', cursive;
+    font-size: 45px;
+    color: black;
 }
+.subtitulo{
+    font-family: 'Ranga', cursive;
+    font-size: 45px;
+    margin-top: 20px;
+    color: black;
+}
+
+.texto{
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 40px;
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .logo{
+      width: 60px;
+      height: 60px;
+  }
