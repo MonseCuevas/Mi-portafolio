@@ -1,13 +1,16 @@
 .navar{
     background-color:#EFEBE9  ;
 }
+ul{
+  margin-left: auto;
+}
 a{
     color: black;
     font-family: 'Ranga', cursive;
     font-size: 25px;
 }
 a:hover{
-    color:#E1BEE7;
+    color:#E1BEE7 !important;
 }
 .imagen{
  background-image: url(computadora.jpeg);
