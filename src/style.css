@@ -1,5 +1,9 @@
+
 .navar{
     background-color:#EFEBE9 !important;
+}
+* {
+  box-sizing: border-box;
 }
 ul{
   margin-left: auto;
@@ -13,28 +17,27 @@ ul{
     color:#F5B7B1  !important;
 }
 .imagen{
- background-image: url(computadora.jpeg);
+background-image: url(computadora.jpeg);
  background-repeat: no-repeat;
  background-size: cover;
  width: 100%;
  height: 600px;
- display: flex;
+ display: table;
 }
 
 .titulo{
   font-family: 'Niconne', cursive;
   font-size: 45px;
-    color: black;
-  }
-
+   color: black;
+  text-shadow: 2px 2px 3px white;
+}
 .subtitulo{
   font-family: 'Niconne', cursive;
   font-size: 45px;
-    margin-top: 20px;
-    color: black;
-  }
-
-
+  margin-top: 20px;
+  color: black;
+   text-shadow: 2px 2px 3px white;
+}
 .texto{
     text-align: left;
     margin-top: 90px;
@@ -60,7 +63,8 @@ ul{
   }
   /* estilos de foto*/
   .fondo{
-      background-color:#D7CCC8;
+    background: rgb(238,174,202);
+     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
       height: 600px;
       display: table;
       width: 100%;
@@ -96,23 +100,19 @@ ul{
     color: black;
   }
   
-  .Habilidad{
-    background-color:#FDEDEC;
-    width: 50%;
+  .habilidades{
+    background-color: #d9afd8;
+    background-image: linear-gradient(0deg, #d9afd8 0%, #97a7e1 100%);
+    width: 100%;
     height: 600px;
-    float: right;
     font-family: 'Niconne', cursive;
     font-size: 30px;
     display: table;   
   }
 .blandas{
-  background-color:#F4ECF7;
-  width: 50%;
+  background-color: #d68bec;
+  background-image: linear-gradient(135deg, #d68bec 0%, #e2c395 100%);
   height: 600px;
-  float: left;
-  font-family: 'Niconne', cursive;
-  font-size: 30px;
-  display: table;
 }
 .icon-h{
   width: 33%; 
@@ -144,7 +144,8 @@ animation: bouce1 .5s alternate infinite ease-in;
 margin-left:80px;
 }
 .portafolio{
-  background-color:#C5CAE9;
+  background-color: #ffdef1;
+  background-image: linear-gradient(0deg, #ffdef1 0%, #b5b8ff 100%);  
   width: 100%;
   height: 600px;
   display: table;
@@ -162,5 +163,63 @@ margin-left:80px;
 .item-pokemon{
   background-image: url(pokemon.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 400px;
+}
+.titulo-carrusel{
+  font-family: 'Niconne', cursive;
+  margin: auto;
+  display: table;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.margin-button{
+  margin: auto; 
+  display: table;
+}
+.icon-5{
+  width: 33%; 
+  display: table-cell;
+}
+.icon-8{
+  width: 50px; 
+  height: 50px;
+  margin: 20px;
+}
+
+.icon-7{
+  width: 25%; 
+  display: table-cell;
+
+}
+.icon-9{
+  width: 40px; 
+  height: 40px;
+  margin: 10px;
+}
+.icon-3{
+  width: 33%; 
+  display: table-cell;
+
+}
+
+.icon-2{
+  width: 50px; 
+  height: 50px;
+  margin: 20px;
+}
+
+.contacto{
+  background-color: #a8f6fa;
+  background-image: linear-gradient(19deg, #a8f6fa 0%, #edd6f3 100%);
+  width: 100%;
+  height: 100px;
+  font-family: 'Niconne', cursive;
+  margin: auto;
+  display: table;
+  font-size: 40px;
+}
+.contacto img {
+  width: 70px;
+  height: 60px;
+  margin-left: 70px;
 }
