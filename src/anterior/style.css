@@ -1,4 +1,9 @@
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .navar{
     background-color:#EFEBE9 !important;
 }
@@ -63,8 +68,7 @@ background-image: url(computadora.jpeg);
   }
   /* estilos de foto*/
   .fondo{
-    background: rgb(238,174,202);
-     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color:white;
       height: 600px;
       display: table;
       width: 100%;
@@ -75,6 +79,11 @@ background-image: url(computadora.jpeg);
       border-radius: 50%;
       margin: auto;
       display: flex; 
+      box-shadow:-2px -20px 25px #8D42D9;
+      box-shadow:-2px 19px 25px #8D42D9;
+
+      
+
   }
   .fondo-img{
     display: table-cell;
@@ -90,41 +99,51 @@ background-image: url(computadora.jpeg);
   /* estilo de texto sobre mi*/
   .mi-texto{
     font-family: 'Niconne', cursive;
-    font-size: 45px;
-    color: black;
+    font-size: 50px;
+    color:#5B2C6F;
 
   }
   .explicación{
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    color: black;
+    color:black;
+    color:#D7BDE2;
+
   }
   
   .habilidades{
-    background-color: #d9afd8;
-    background-image: linear-gradient(0deg, #d9afd8 0%, #97a7e1 100%);
+    background-color:#D2B4DE;
     width: 100%;
-    height: 600px;
+    height: 200px;
     font-family: 'Niconne', cursive;
-    font-size: 30px;
+    font-size: 20px;
     display: table;   
   }
 .blandas{
-  background-color: #d68bec;
-  background-image: linear-gradient(135deg, #d68bec 0%, #e2c395 100%);
-  height: 600px;
+  background:#F8BBD0;
+  height:400px;
 }
 .icon-h{
-  width: 33%; 
+  width: 32%;
+  height: 50px; 
+  margin-top:30px;
   display: inline-block;
   animation: bouce1 .5s alternate infinite ease-in;
 }
+.iconos-seis{
+  display: flex;
+  flex-direction: row;
+}
+.section-iconos{
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  height: 30rem;
+}
 .icon-i{
-  width: 70px; 
-  height: 70px;
+  height: 30px;
   margin: 20px;
   animation: bouce1 .5s alternate infinite ease-in;
-  margin-left:50px;
 } 
 @keyframes bouce1{
   0%{
@@ -135,17 +154,15 @@ background-image: url(computadora.jpeg);
   }
 }
 .titulo-habilidades{
-  display: inherit;
+  display: block;
   margin: auto;
 }
 .h-b{
 font-family: 'Open Sans', sans-serif;
-animation: bouce1 .5s alternate infinite ease-in;
 margin-left:80px;
 }
 .portafolio{
-  background-color: #ffdef1;
-  background-image: linear-gradient(0deg, #ffdef1 0%, #b5b8ff 100%);  
+  background-color:white;
   width: 100%;
   height: 600px;
   display: table;
@@ -209,10 +226,9 @@ margin-left:80px;
 }
 
 .contacto{
-  background-color: #a8f6fa;
-  background-image: linear-gradient(19deg, #a8f6fa 0%, #edd6f3 100%);
+  background-color:#C39BD3;
   width: 100%;
-  height: 100px;
+  height: 200px;
   font-family: 'Niconne', cursive;
   margin: auto;
   display: table;
@@ -221,5 +237,5 @@ margin-left:80px;
 .contacto img {
   width: 70px;
   height: 60px;
-  margin-left: 70px;
+  margin-left:70px ;
 }

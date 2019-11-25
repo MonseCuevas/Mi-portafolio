@@ -1,214 +1,439 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portafolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Ranga&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/mc.png" type="image/png">
+	<title>Portafolio</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="row">
-      <div class="col-md-12">
-          <nav class="navar navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#"><img class="logo" src="mc.png" /></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav justify-content-end">
-                  <li class="nav-item active">
-                    <a class="titulo-a nav-link" href="#idFondo">Sobre mi</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="titulo-a nav-link" href="#">Habilidades</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="titulo-a nav-link" href="#">Proyectos</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="titulo-a nav-link" href="#">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-            <div class="imagen">
-              <div class="texto">
-                <label class="titulo">Monserratt Cuevas Serrano</label>
-                <br>
-                <label class="subtitulo">front-end developer</label>
-              </div>
-            </div>
-            <div id="idFondo" class="fondo">
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img style="width: 50px; height: 50px;" src="img/mc.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Menu lateral -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item active"><a class="nav-link" href="#sobreMi">Sobre mi</a></li>
+							<li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Proyectos</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
 
-              <div class="fondo-img">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="perfil" src="monse 2.jpeg" alt="Monserratt">
-                      </div>
-                      <div class="col-md-6">
-                        <div class="sobre">
-                          <label class="mi-texto">Sobre mi</label>
-                          <br>
-                          <label class="explicación">Me gusta aprender cosas me enfrento a retos nuevos y siempre trato
-                            de dar mi mejor esfuerzo en cada proyecto que realizó me interesa saber más sobre el código.</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="habilidades">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <label for="" class="titulo-habilidades">Habilidades Tecnicas</label>
-                      <br>
-                      <div class="icon-h"><img class="icon-i" src="html5.png" alt="html"/></div>
-                      <div class="icon-h"><img class="icon-i" src="css4.png" alt="css"/></div>
-                      <div class="icon-h"><img class="icon-i" src="javascript.png" alt="js"/></div>
-                      <div class="icon-h"><img class="icon-i" src="react.png" alt="re"/></div>
-                      <div class="icon-h"><img class="icon-i" src="firebase.png" alt="fi"/></div>
-                      <div class="icon-h"><img class="icon-i"src="node.png" alt="node"/></div>
-                      <div class="icon-h"><img class="icon-i" src="git.png" alt="git"/></div>
-                      <div class="icon-h"><img class="icon-i" src="githup.png" alt="githup"/></div>
-                    </div>
-                    <div class="col-md-6 blandas">
-                      <label for="" class="titulo-habilidades">Habilidades blandas</label>
-                      <br>
-                      <p class="h-b">Trabajo en equipo</p>
-                      <p class="h-b">Comunicación</p>
-                      <p class="h-b">Responsabilidad</p>
-                      <p class="h-b">Adaptación</p>
-                      <p class="h-b">colaboración</p>
-                      <p class="h-b">Iniciativa</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="portafolio">
-              <div class="table-portafolio">
-                <div class="row">
-                  <div class="col-md-12">
-                    <label class="titulo-carrusel" for="">Proyectos</label>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="row">
-                      <div class="col-md-4" style="margin-bottom: 20px;">
-                        <div class="card" style="width: 18rem; margin: auto;">
-                          <img src="pokemon.png" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-12">
-                                Aplicación web que te permite ordenar, filtrar y puedes ver cada uno 
-                                de los pokemons.
-                                <div class="icon-5"><img class="icon-8" src="html5.png" alt="html"/></div>
-                                <div class="icon-5"><img class="icon-8" src="css4.png" alt="css"/></div>
-                                <div class="icon-5"><img class="icon-8" src="javascript.png" alt="javascript"/></div>
-                              </div>
-                              <div class="col-md-12">
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <a href="https://github.com/MonseCuevas/Pokemon-Datalovers" target="_blank" class="margin-button btn btn-light">Github</a>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <a href="https://monsecuevas.github.io/Pokemon-Datalovers/src/index.html" target="_blank" class="margin-button btn btn-light">Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4" style="margin-bottom: 20px;">
-                        <div class="card" style="width: 18rem; margin: auto;">
-                          <img src="vegano.png" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-12">
-                                Este proyecto fue creado, para un restaurante
-                                de comida vegana, permite administrar el inventario segun las ventas.
-                                <div class="icon-7"><img class="icon-9" src="html5.png" alt="html"/></div>
-                                <div class="icon-7"><img class="icon-9" src="css4.png" alt="css"/></div>
-                                <div class="icon-7"><img class="icon-9" src="javascript.png" alt="javascript"/></div>
-                                <div class="icon-7"><img class="icon-9" src="react.png" alt="react"/></div>
-          
-                              </div>
-                              <div class="col-md-12">
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <a href="https://github.com/MonseCuevas/Pokemon-Datalovers" target="_blank" class="margin-button btn btn-light">Github</a>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <a href="https://monsecuevas.github.io/Pokemon-Datalovers/src/index.html" target="_blank" class="margin-button btn btn-light">Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4" style="margin-bottom: 20px;">
-                        <div class="card" style="width: 18rem; margin: auto;">
-                          <img src="cesar.png" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-12">
-                                Esta aplicación conciste en un cifrado cesar, que permite mandar mensajes encriptados a una tienda de novias y por medio de un 
-                                codigo la encargada lo pueda desencriptar, y así solo ellas sabran el diseño de algun vestido.
-                                <div class="icon-3"><img class="icon-2" src="html5.png" alt="html"/></div>
-                                <div class="icon-3"><img class="icon-2" src="css4.png" alt="css"/></div>
-                                <div class="icon-3"><img class="icon-2" src="javascript.png" alt="javascript"/></div>
-                              </div>
-                              <div class="col-md-12">
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <a href="https://github.com/MonseCuevas/Pokemon-Datalovers" target="_blank" class="margin-button btn btn-light">Github</a>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <a href="https://monsecuevas.github.io/Pokemon-Datalovers/src/index.html" target="_blank" class="margin-button btn btn-light">Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="contacto">
-              <label class="contacto margin-button" for="">Contacto</label>
-              <img src="linkedin2.png" alt="">
-              <img src="correo3.png" alt="">
-              <img src="github.png" alt="">
-              <img src="cv2.png" alt="">
-            </div>
-      </div>
-    </div>
+	<section class="home_banner_area" id="sobreMi">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="banner_content">
+							<h1 class="text-uppercase">Monserrat Cuevas Serrano</h1>
+							<h5 class="text-uppercase">Front End Developer</h5>
+							<div class="d-flex align-items-center">
+								<a class="primary_btn tr-bg" href="#"><span>CV</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="home_right_img">
+							<div class="row">
+								<div class="col-md-6">
+									<img style="height: 300px; margin: auto; display: block;" class="" src="img/monse.jpeg" alt="">
+								</div>
+								<div class="col-md-6">
+									<label>
+										Soy una Front End Developer, apasionada por el aprendizaje y la mejora continua. Egresada de Laboratoria, programa integral intensivo de seis meses, donde aprendí Desarrollo Web.
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="brand_area" id="habilidades" style="margin-top: 30px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title text-left">
+						<h2>Habilidades</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/html6.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/css5.png" style="height: 80px;" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/javascrip6.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/node2.png" style="width: 120px; height: 50px;" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/react4.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/firebase5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/git5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="./img/github4.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/bostrap.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="offset-lg-2 col-lg-4 col-md-6">
+					<div class="client-info">
+						<div class="d-flex">
+							<span>He utilizado tecnologías como HTML, CSS, JavaScript, React y Bootstrap para el desarrollo de mis proyectos en la parte del Front-End, también Nodejs y Firebase para la parte del Back-End, además de Git y Github para el versionado de mis aplicaciones.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+	<section class="features_area">
+		<div class="container">
+			<div class="row feature_inner">
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="./img/teamwork.png" style="width: 70px; height: 70px;" alt="">
+						<h4>Trabajo en equipo</h4>
+						<p>Soy capaz de adaptarme a grandes o pequeños equipos de trabajo.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/puntualidad.png" style="width: 50px; height: 70px;" alt="">
+						<h4>Puntualidad</h4>
+						<p>Soy puntual en la entrega de mis proyectos y con los horarios preevistos.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/autoaprendizaje.png" style="width: 70px; height: 70px;" alt="">
+						<h4>Autoaprendizaje</h4>
+						<p>Puedo aprender e investigar todo lo que necesito por mi misma.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/responsibility.png" style="width: 70px; height: 70px;" alt="">
+						<h4>Responsabilidad</h4>
+						<p>Siempre cumplo con mis cometidos de la mejor forma posible.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio_area" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title text-left">
+						<h2>Proyectos</h2>
+					</div>
+				</div>
+			</div>
+	
+			<div class="filters-content">
+				<div class="row portfolio-grid justify-content-center">
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="./img/pokemon.png" alt="" />
+								<div class="overlay"></div>
+								<a href="./img/pokemon.png" class="img-gal" data-toggle="modal" data-target="#pokemonModal">			
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Pokémon Go</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="./img/cesar.png" alt="">
+								<div class="overlay"></div>
+								<a href="./img/cesar.png" class="img-gal" data-toggle="modal" data-target="#briedesModal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Cifrado César</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="./img/vegano.png" alt="">
+								<div class="overlay"></div>
+								<a href="./img/vegano.png" class="img-gal" data-toggle="modal" data-target="#pandemoniumModal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Pandemonium</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Pokemon Modal -->
+		<div class="modal fade" id="pokemonModal" tabindex="-1" role="dialog" aria-labelledby="pokemonModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="pokemonModalLabel">Pokémon Go</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-12">
+								Aplicación web que te permite ordenar, filtrar y puedes ver cada uno
+								de los pokemons.
+								<div class="row" style="margin-top: 20px;">
+									<div class="col-md-12">
+										<div class="row" style="text-align: center;">
+											<div class="col-md-4">
+												<img style="width: 32px; height: 32px;" src="./img/html6.png" alt="html" />
+											</div>
+											<div class="col-md-4">
+												<img style="width: 32px; height: 32px;" src="./img/css5.png" alt="css" />
+											</div>
+											<div class="col-md-4">
+												<img style="width: 32px; height: 32px;" src="./img/javascrip6.png" alt="javascript" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">	
+						<div class="col-md-12">
+							<div class="row" style="text-align: center;">
+								<div class="col-md-6">
+									<a href="https://github.com/MonseCuevas/Pokemon-Datalovers" target="_blank" class="btn btn-outline-secondary">Github</a>
+								</div>
+								<div class="col-md-6">
+									<a href="https://monsecuevas.github.io/Pokemon-Datalovers/src/index.html" target="_blank" class="btn btn-outline-secondary">Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Briedes Modal -->
+		<div class="modal fade" id="briedesModal" tabindex="-1" role="dialog" aria-labelledby="briedesModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="briedesModalLabel">Cifrado César</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-12">
+								Esta aplicación conciste en un cifrado cesar, que permite mandar mensajes encriptados a una
+								tienda de novias y por medio de un codigo la encargada lo pueda desencriptar, y así solo ellas 
+								sabran el diseño de algun vestido.
+								<div class="row" style="margin-top: 20px;">
+									<div class="col-md-12">
+										<div class="row" style="text-align: center;">
+											<div class="col-md-4">
+												<img style="width: 32px; height: 32px;" src="./img/html6.png" alt="html" />
+											</div>
+											<div class="col-md-4">
+												<img style="width: 32px; height: 32px;" src="./img/css5.png" alt="css" />
+											</div>
+											<div class="col-md-4">
+												<img style="width: 32px; height: 32px;" src="./img/javascrip6.png" alt="javascript" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">	
+						<div class="col-md-12">
+							<div class="row" style="text-align: center;">
+								<div class="col-md-6">
+									<a href="https://github.com/MonseCuevas/MEX-008-Cipher" target="_blank" class="btn btn-outline-secondary">Github</a>
+								</div>
+								<div class="col-md-6">
+									<a href="https://monsecuevas.github.io/MEX-008-Cipher/src/" target="_blank" class="btn btn-outline-secondary">Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Pokemon Modal -->
+		<div class="modal fade" id="pandemoniumModal" tabindex="-1" role="dialog" aria-labelledby="pandemoniumModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="pandemoniumModalLabel">Pandemonium</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-12">
+								Este proyecto fue creado, para un restaurante
+								de comida vegana, permite administrar el inventario segun las ventas.
+								<div class="row" style="margin-top: 20px;">
+									<div class="col-md-12">
+										<div class="row" style="text-align: center;">
+											<div class="col-md-3">
+												<img style="width: 32px; height: 32px;" src="./img/html6.png" alt="html" />
+											</div>
+											<div class="col-md-3">
+												<img style="width: 32px; height: 32px;" src="./img/css5.png" alt="css" />
+											</div>
+											<div class="col-md-3">
+												<img style="width: 32px; height: 32px;" src="./img/javascrip6.png" alt="javascript" />
+											</div>
+											<div class="col-md-3">
+												<img style="width: 32px; height: 32px;" src="./img/react4.png" alt="javascript" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">	
+						<div class="col-md-12">
+							<div class="row" style="text-align: center;">
+								<div class="col-md-6">
+									<a href="https://github.com/MonseCuevas/BurguerQueenPandemonium" target="_blank" class="btn btn-outline-secondary">Github</a>
+								</div>
+								<div class="col-md-6">
+									<a href="https://iselareyesperdomo94.github.io/BurguerQueenPandemonium/Home" target="_blank" class="btn btn-outline-secondary">Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer_area" id="contacto">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+							<a href="#">
+								<img src="./img/mc.png" style="width: 100px; height: 100px;" alt="">
+							</a>
+							<h4>Contacto</h4>
+						</div>
+						<div class="footer_social">
+							<a href="https://github.com/MonseCuevas" target="_blank"><i style="font-size: 50px;" class="fa fa-github"></i></a>
+							<a href="https://www.linkedin.com/in/monserratt-cuevas-serrano-a16292192" target="_blank"><i style="font-size: 50px;" class="fa fa-linkedin"></i></a>
+							<a href="mailto:monsis.cuevas@gmail.com" target="_blank"><i style="font-size: 50px;" class="fa fa-envelope"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/theme.js"></script>
 </body>
-
 </html>
