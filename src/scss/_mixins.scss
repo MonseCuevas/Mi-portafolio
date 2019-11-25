@@ -123,7 +123,6 @@
 	animation: $args;
 }
 
-/* Medium Layout: 1280px */
 
 @mixin medium {
 	@media (min-width: 992px) and (max-width: 1400px) {
@@ -131,7 +130,6 @@
 	}
 }
 
-/* Tablet Layout: 768px */
 
 @mixin tablet {
 	@media (min-width: 768px) and (max-width: 1200px) {
@@ -139,7 +137,6 @@
 	}
 }
 
-/* Mobile Layout: 320px */
 
 @mixin mobile {
 	@media (max-width: 767px) {
@@ -147,7 +144,6 @@
 	}
 }
 
-/* Wide Mobile Layout: 480px */
 
 @mixin wide-mobile {
 	@media (min-width: 480px) and (max-width: 767px) {

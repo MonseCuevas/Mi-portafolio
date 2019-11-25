@@ -1,30 +1,6 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
-/*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Medium Layout: 1280px */
-/* Tablet Layout: 768px */
-/* Mobile Layout: 320px */
-/* Wide Mobile Layout: 480px */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
+
 body {
   line-height: 26px;
   font-size: 15px;
@@ -81,8 +57,6 @@ button:focus {
 .mt-50 {
   margin-top: 50px; }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 .section_gap {
   padding: 200px 0; }
   @media (max-width: 1199px) {
@@ -100,9 +74,6 @@ button:focus {
   @media (max-width: 1199px) {
     .section_gap_bottom {
       padding-bottom: 80px; } }
-
-/* Main Title Area css
-============================================================================================ */
 .main_title {
   text-align: center;
   margin-bottom: 70px; }
@@ -133,10 +104,6 @@ button:focus {
     color: #fff;
     opacity: .6; }
 
-/* End Main Title Area css
-============================================================================================ */
-/* Start Gradient Area css
-============================================================================================ */
 .gradient-bg, .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link, .blog_right_sidebar .widget_title, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .comments-area .btn-reply:hover {
   background: -webkit-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   background: -moz-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
@@ -163,8 +130,6 @@ button:focus {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* End Gradient Area css
-============================================================================================ */
 .primary_btn {
   display: inline-block;
   color: #fff;
@@ -209,8 +174,6 @@ button:focus {
   height: 100%;
   width: 100%; }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 .header_area {
   position: absolute;
   width: 100%;
@@ -338,10 +301,6 @@ button:focus {
   display: -ms-flexbox;
   display: flex; }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Home Banner Area css
-============================================================================================ */
 .home_banner_area {
   z-index: 1;
   background-position: center;
@@ -458,14 +417,7 @@ button:focus {
           .banner_area .banner_inner .banner_content .page_link a:last-child:before {
             display: none; }
 
-/* End Home Banner Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Latest Blog Area css
-============================================================================================ */
-/* End Latest Blog Area css
-============================================================================================ */
+
 .blog_btn {
   border: 1px solid #eeeeee;
   background: #f9f9ff;
@@ -500,8 +452,7 @@ button:focus {
     background: #4458dc;
     color: #fff; }
 
-/* Causes Area css
-============================================================================================ */
+
 .causes_slider .owl-dots {
   text-align: center;
   margin-top: 80px; }
@@ -576,9 +527,7 @@ button:focus {
       font-size: 14px;
       color: #000000; }
 
-/* End Causes Area css
-============================================================================================ */
-/*================= latest_blog_area css =============*/
+
 .single-recent-blog-post {
   margin-bottom: 30px; }
   .single-recent-blog-post .thumb {
@@ -614,7 +563,6 @@ button:focus {
   .tags .tag_btn + .tag_btn {
     margin-left: 2px; }
 
-/*========= blog_categorie_area css ===========*/
 .blog_categorie_area {
   padding-bottom: 80px; }
 
@@ -660,7 +608,6 @@ button:focus {
   .categories_post:hover .categories_details {
     background: rgba(68, 88, 220, 0.85); }
 
-/*============ blog_left_sidebar css ==============*/
 .blog_item {
   margin-bottom: 40px; }
 
@@ -937,7 +884,6 @@ button:focus {
   text-decoration: none;
   border-color: #eee; }
 
-/*============ Start Blog Single Styles  =============*/
 .single-post-area .social-links {
   padding-top: 10px; }
   .single-post-area .social-links li {
@@ -1142,10 +1088,6 @@ button:focus {
     font-size: 13px;
     color: #777; }
 
-/*============ End Blog Single Styles  =============*/
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/*============== contact_area css ================*/
 .mapBox {
   height: 420px;
   margin-top: 80px; }
@@ -1202,8 +1144,6 @@ button:focus {
 .contact_form .primary_btn {
   margin-top: 20px; }
 
-/* Contact Success and error Area css
-============================================================================================ */
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -1235,11 +1175,7 @@ button:focus {
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
-/* End Contact Success and error Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/*============== Elements Area css ================*/
+
 .mb-20 {
   margin-bottom: 20px; }
 
@@ -1269,8 +1205,7 @@ button:focus {
     .sample-text-area p u {
       color: #4458dc; }
 
-/*============== End Elements Area css ================*/
-/*==============Elements Button Area css ================*/
+
 .elements_button .title_color {
   margin-bottom: 30px;
   color: #000000; }
@@ -1400,11 +1335,6 @@ button:focus {
   padding-top: 0px;
   padding-bottom: 0px; }
 
-/*==============End Elements Button Area css ================*/
-/* =================================== */
-/*  Elements Page Styles
-/* =================================== */
-/*---------- Start Elements Page -------------*/
 .generic-banner {
   margin-top: 60px;
   text-align: center; }
@@ -1451,7 +1381,6 @@ button:focus {
 .switch-wrap p {
   margin: 0; }
 
-/*---------- End Elements Page -------------*/
 .sample-text-area {
   padding: 100px 0 70px 0; }
 
@@ -2428,10 +2357,6 @@ h6 {
 .form-select .nice-select::after {
   right: 20px; }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Start About Us Area css
-============================================================================================ */
 .about_area {
   position: relative; }
   .about_area .main_title {
@@ -2453,20 +2378,12 @@ h6 {
       .about_area .about_img {
         display: none; } }
 
-/* End About Us Area css
-============================================================================================ */
-/* Start Barand Area css
-============================================================================================ */
 .brand_area {
   padding-bottom: 30px; }
   @media (max-width: 1199px) {
     .brand_area {
       padding-bottom: 80px; } }
 
-/* End Barand Area css
-============================================================================================ */
-/* Start Features Area css
-============================================================================================ */
 .features_area {
   padding-bottom: 30px; }
   @media (max-width: 1199px) {
@@ -2590,10 +2507,7 @@ h6 {
     font-weight: 700;
     color: #000000; }
 
-/* End Brand Area css
-============================================================================================ */
-/* Start Portfolio Area css
-============================================================================================ */
+
 .portfolio_area {
   padding-bottom: 30px; }
   @media (max-width: 991px) {
@@ -2714,10 +2628,7 @@ h6 {
     .portfolio_details_inner .portfolio_right_text .list li i {
       color: #f1cd09; }
 
-/* End Portfolio Area css
-============================================================================================ */
-/* Start Testimonial Area css
-============================================================================================ */
+
 .testimonial_area .owl-carousel .owl-dots {
   display: block !important;
   text-align: center; }
@@ -2775,10 +2686,6 @@ h6 {
   .testi_item:hover {
     box-shadow: 0px 10px 20px 0px rgba(118, 85, 225, 0.1); }
 
-/* End Testimonial Area css
-============================================================================================ */
-/* Start Newsletter Area css
-============================================================================================ */
 .newsletter_area {
   color: #ffffff; }
 
@@ -2852,33 +2759,23 @@ h6 {
 .subscription .info.error {
   color: red; }
 
-/* End Newsletter Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
+
 @media (max-width: 1619px) {
-  /* Main Menu Area css
-  ============================================================================================ */
+  
   .header_area .navbar .search {
     margin-left: 40px; }
 
-  /* End Main Menu Area css
-  ============================================================================================ */ }
+ }
 @media (max-width: 1199px) {
-  /* Main Menu Area css
-  ============================================================================================ */
+
   .header_area .navbar .nav .nav-item {
     margin-right: 28px; }
 
-  /* End Main Menu Area css
-  ============================================================================================ */
-  /* Home Banner Area css
-  ============================================================================================ */
+
   .home_banner_area .banner_inner {
     padding: 100px 0px; }
 
-  /* End Home Banner Area css
-  ============================================================================================ */
+  
   .header_area .navbar .primary_btn {
     margin-left: 40px; }
 
@@ -2981,22 +2878,17 @@ h6 {
   .header_area.white_menu .navbar .nav .nav-item .nav-link {
     color: #222; }
 
-  /* End Main Menu Area css
-  ============================================================================================ */
-  /* Start Home banner Area css
-  ============================================================================================ */
+  
   .home_banner_area {
     margin-top: 0; }
-  /* Footer Area css
-  ============================================================================================ */
+  
   .footer_area {
     padding-top: 80px !important;
     padding-bottom: 80px !important;
     background-image: none !important;
     background-color: #fcf8ff; }
 
-  /* Blog page Area css
-  ============================================================================================ */
+  
   .categories_post img {
     width: 100%; }
 
@@ -3013,15 +2905,10 @@ h6 {
   .single-post-area .blog_right_sidebar {
     margin-top: 30px; }
 
-  /* End Blog page Area css
-  ============================================================================================ */
-  /* Contact Page Area css
-  ============================================================================================ */
   .contact_info {
     margin-bottom: 50px; }
 
-  /* End Contact page Area css
-  ============================================================================================ */
+  
   .home_banner_area .donation_inner {
     margin-bottom: -30px; }
 
@@ -3029,8 +2916,7 @@ h6 {
     max-width: 350px;
     margin: auto; }
 
-  /* Footer Area css
-  ============================================================================================ */
+
   .footer_area .col-sm-6 {
     margin-bottom: 30px; }
 
@@ -3040,8 +2926,7 @@ h6 {
   .news_widget {
     padding-left: 0px; }
 
-  /* End End Footer Area css
-  ============================================================================================ */
+  
   .home_banner_area .banner_inner .home_left_img {
     display: none; }
 
@@ -3069,14 +2954,11 @@ h6 {
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px; }
 
-  /* Blog Page Area css
-  ============================================================================================ */
+ 
   .blog_info.text-right {
     text-align: left !important;
     margin-bottom: 10px; }
 
-  /* End Blog Page Area css
-  ============================================================================================ */
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 30px; }
 
@@ -3088,8 +2970,7 @@ h6 {
     padding-bottom: 0px;
     padding-top: 0px; }
 
-  /* Footer Area css
-  ============================================================================================ */
+  
   .footer_area .f_title {
     margin-bottom: 20px; }
 
@@ -3100,8 +2981,7 @@ h6 {
     text-align: center;
     margin-top: 15px; }
 
-  /* End End Footer Area css
-  ============================================================================================ */
+ 
   .made_life_inner .nav.nav-tabs li {
     flex: 0 0 50%;
     max-width: 50%;
@@ -3119,8 +2999,7 @@ h6 {
   .header_area + div {
     margin-top: 0px; }
 
-  /* Home Banner Area css
-  ============================================================================================ */
+  /
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 28px;
     line-height: 38px; }
@@ -3137,8 +3016,7 @@ h6 {
   .home_banner_area .banner_inner .banner_content h5 {
     margin-top: 0px; }
 
-  /* End Home Banner Area css
-  ============================================================================================ */
+  
   .section_gap {
     padding-top: 70px;
     padding-bottom: 70px; }
@@ -3146,51 +3024,37 @@ h6 {
   .main_title h2 {
     font-size: 25px; }
 
-  /*Recent Update Area css
-  ============================================================================================ */
-  /* Elements Area css
-  ============================================================================================ */
+  
   .sample-text-area {
     padding: 70px 0 70px 0; }
 
   .generic-blockquote {
     padding: 30px 15px 30px 30px; }
 
-  /* End Elements Area css
-  ============================================================================================ */
-  /* Blog Page Area css
-  ============================================================================================ */
+  
   .blog_details h2 {
     font-size: 20px;
     line-height: 30px; }
 
-  /* End Blog Page Area css
-  ============================================================================================ */
-  /* Footer Area css
-  ============================================================================================ */
+ 
   .footer-area {
     padding: 70px 0px; }
 
   .news_widget {
     padding-left: 0 !important; }
 
-  /* End End Footer Area css
-  ============================================================================================ */
+  
   .pad_top {
     padding-top: 70px; }
 
   .pad_btm {
     padding-bottom: 70px; } }
 @media (max-width: 480px) {
-  /* Main Menu Area css
-  ============================================================================================ */
+  
   .header_area .navbar-collapse {
     max-height: 250px; }
 
-  /* End Main Menu Area css
-  ============================================================================================ */
-  /* Home Banner Area css
-  ============================================================================================ */
+ 
   .home_banner_area .banner_inner .banner_content {
     padding: 30px 15px;
     margin-top: 0px; }
@@ -3198,18 +3062,14 @@ h6 {
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 24px; }
 
-  /* End Home Banner Area css
-  ============================================================================================ */
+ 
   .banner_area .banner_inner .banner_content h2 {
     font-size: 32px; }
 
-  /* Blog Page Area css
-  ============================================================================================ */
+  
   .comments-area .thumb {
     margin-right: 10px; }
 
-  /* End Blog Page Area css
-  ============================================================================================ */
   .testi_item .media .d-flex {
     padding-right: 0px; }
 
@@ -3220,15 +3080,11 @@ h6 {
   .testi_item .media {
     display: block; } }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* Start Brand Carousel Area css
-  ============================================================================================ */
+  
   .brand-carousel .single-brand-item {
     height: 100px;
     width: 140px; } }
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Footer Area css
-============================================================================================ */
+
 .blog_version .footer_area {
   background: #f9f9fd; }
   .blog_version .footer_area:before {
@@ -3279,9 +3135,3 @@ h6 {
       margin-bottom: 0; }
     .footer_area .footer_bottom a {
       color: #854fee; }
-
-/* End Footer Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
